@@ -1,2 +1,2 @@
 # translation-viet-eng
-translation vi_en
+translation vi_en using Transformer, accuracy = 50%
