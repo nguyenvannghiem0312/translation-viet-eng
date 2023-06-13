@@ -41,10 +41,10 @@ There are some arguments for the script you should consider when running it:
 - `max-length`: The maximum length of a sentence you want to keep when preprocessing
 - `num-examples`: The number of lines you want to train. It was set small if you want to experiment with this library quickly.
 - `d-model`: The dimension of linear projection for all sentence.
-- `num-layers`: The number of Encoder/Decoder Layers. Transformer-Base sets it to 2.
-- `num-heads`: The number of Multi-Head Attention. Transformer-Base sets it to 12.
+- `num-layers`: The number of Encoder/Decoder Layers. 
+- `num-heads`: The number of Multi-Head Attention. 
 - `dff`: The hidden size of Position-wise Feed-Forward Networks.
-- `dropout-rate`. Dropout rate of any Layer. Transformer-Base sets it to 0.1
+- `dropout-rate`. Dropout rate of any Layer. 
 
 After training, you can test model. You can use my model is traned with 12M paramaters in dataset: https://huggingface.co/datasets/mt_eng_vietnamese, the accuracy 50% (detail in translationVi_En.ipynb). Some example:
 
