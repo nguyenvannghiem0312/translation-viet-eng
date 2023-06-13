@@ -1,6 +1,6 @@
 # Translation Viet-Eng
 
-## Tthe requirements
+## The requirements
 
 Make sure you have install library in environment.yml
 
