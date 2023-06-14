@@ -2,7 +2,7 @@
 
 ## The requirements
 
-Make sure you have install library:
+Make sure you have installed the required library:
 
 ```bash
 tensorflow==2.10.0
