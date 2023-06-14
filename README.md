@@ -49,9 +49,9 @@ There are some arguments for the script you should consider when running it:
 After training, you can test the model. My model has been trained with 12M parameters in the dataset.: https://huggingface.co/datasets/mt_eng_vietnamese, the accuracy 50% (detail in translationVi_En.ipynb). Some example:
 
 ```bash
-Input:         : Bắt chước những gì bạn nhìn thấy .
-Prediction     : <start> so what do you see <end> 
-Truth          : You can mimic what you can see .
+Input:         : Hôm qua tôi đi học
+Prediction     : <start> yesterday i went to school <end> 
+Truth          : Yesterday, I went to school
 ```
 
 ```bash
