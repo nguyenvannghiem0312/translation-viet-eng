@@ -46,7 +46,7 @@ There are some arguments for the script you should consider when running it:
 - `dff`: The hidden size of Position-wise Feed-Forward Networks.
 - `dropout-rate`. Dropout rate of any Layer. 
 
-After training, you can test model. My model is trained with 12M paramaters in dataset: https://huggingface.co/datasets/mt_eng_vietnamese, the accuracy 50% (detail in translationVi_En.ipynb). Some example:
+After training, you can test the model. My model has been trained with 12M parameters in the dataset.: https://huggingface.co/datasets/mt_eng_vietnamese, the accuracy 50% (detail in translationVi_En.ipynb). Some example:
 
 ```bash
 Input:         : Bắt chước những gì bạn nhìn thấy .
