@@ -46,25 +46,32 @@ There are some arguments for the script you should consider when running it:
 - `dff`: The hidden size of Position-wise Feed-Forward Networks.
 - `dropout-rate`. Dropout rate of any Layer. 
 
-After training, you can test the model. My model has been trained with 12M parameters in the dataset.: https://huggingface.co/datasets/mt_eng_vietnamese, the accuracy 50% (detail in translationVi_En.ipynb). Some example:
+After training, you can test the model. My model has been trained with 11M parameters in the dataset.: https://huggingface.co/datasets/mt_eng_vietnamese, the accuracy 55%, BLEU 0.18 (detail in translationVi_En.ipynb). Some example:
 
 ```bash
-Input:         : Hôm qua tôi đi học
-Prediction     : <start> yesterday i went to school <end> 
+Input:         : Hôm qua , tôi đi học
+Prediction     : <start> yesterday , i went to school . <end> 
 Truth          : Yesterday, I went to school
 ```
-
 ```bash
-Input:         : Hôm nay tôi đi học
-Prediction     : <start> today i go to school <end> 
-Truth          : Today, I go to school
+Input:         : Chính vì lượng khí thải rất lớn , nó có ý nghĩa quan trọng với hệ thống khí quyển .
+Prediction     : <start> it is because of the emissions is great , it has a meaning to the atmosphere . <end> 
+Truth          : Because of the huge emissions, it is important for the atmosphere.
 ```
-
 ```bash
-Input:         : Mô hình của chúng tôi gồm hàng trăm ngàn thùng xếp chồng tính toán với hàng trăm biến số trong thời gian cực ngắn
-Prediction     : <start> our model including hundreds of thousands of boxes calculate hundreds of hundreds of times in time <end> 
-Truth          : Our models have hundreds of thousands of grid boxes calculating hundreds of variables each , on minute timescales .
+Input:         : Để tôi nói bạn biết một bí mật .
+Prediction     : <start> let me tell you a secret . <end> 
+Truth          : Let me tell you a secret .
 ```
-
+```bash
+Input:         : Môn toán nằm trong các môn khoa học .
+Prediction     : <start> the math is in science . <end> 
+Truth          : Mathematics is in science subjects .
+```
+```bash
+Input:         : Ngày mai là ngày cuối cùng của kỳ thi , tôi cần học thật chăm chỉ để đạt điểm cao .
+Prediction     : <start> tomorrow is day the final day of exam , i need to learn to be hard to achieve the height . <end> 
+Truth          : Tomorrow is the last day of the exam, I need to study hard to achieve a high score.
+```
 
                     
